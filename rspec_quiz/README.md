@@ -1,5 +1,6 @@
 Write a test for the following class
 
+```ruby
 class HtmlDocument
   def initialize(parser)
     @parser = parser
@@ -14,3 +15,4 @@ class HtmlDocument
     end || []
   end
 end
+```
