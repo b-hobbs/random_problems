@@ -64,6 +64,7 @@ class FamilyTree
     # Sort the array
     def sort()
         @tree.sort! { |x,y| x.id <=> y.id }
+        @sorted = true
     end
 
     # Get the depth of the given Person
